@@ -9,6 +9,6 @@ public class HouseWithGarden extends HouseDecorator {
 
     @Override
     public int GetPrice() {
-        return super.GetPrice();
+        return super.GetPrice() + 2000;
     }
 }
